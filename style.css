@@ -1,0 +1,153 @@
+/* CSS files add styling rules to your content */
+
+/* TEXT STYLINGS */
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+  color: #221D23; /* body text color */
+}
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  color: #86A937; /* h1 text color */
+}
+h2 {
+  color: #28390A; /* h2 text color */
+}
+.title {
+  /*padding: 11px 15px 11px 15px;*/
+  display: block;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-style: bold;
+  float: left;
+}
+
+/* NAVIGATION BAR STYLING */
+.navbar {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  overflow: hidden;
+  background-color: #393E41;
+  position: sticky;
+  top: 0;
+  order: 1;
+  width: 100%;
+  color: #d1d1d1;
+}
+.page {
+  display: block;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  float: right;
+  color: #d1d1d1; /* navbar page links color */
+}
+.page:hover {
+  background-color: #232323; /* color of link when hovered over */
+}
+.active {
+  background-color: #232323; /* color of link when active */
+}
+.themeButton {
+  display: block;
+  text-align: center;
+  float: right;
+  color: #b0b0b0;
+  padding: 12px 17px;
+}
+.themeButton:hover {
+  background-color: #386641; 
+}
+
+/* CONTAINER DIV ITEM ETC STYLINGS */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.item {
+  order: 2;
+  padding: 15px 15px 15px 15px;
+  margin: 15px 10px 5px 10px;
+  flax-shrink: 1;
+  width: 400px;
+  max-width: 100%;
+  background-color: #E1E0E1; /* item background color */
+}
+.topMessage {
+  order: 1;
+  width: 100%;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: #c8e091;
+}
+
+/* IMAGE STYLING */
+.center {
+  max-width: 300px;
+}
+
+/* DARK THEME */
+h1.dark {
+  color: #ffb3b3;
+}
+h2.dark {
+  color: #a6c957;
+}
+body.dark {
+  color: #a6c957;
+  background-color: #25282a;
+}
+.navbar.dark {
+  color: #d1d1d1;
+}
+.page.dark {
+  color: #d1d1d1;
+}
+.item.dark {
+  background-color: #386641;
+}
+.topMessage.dark {
+  background-color: #d45459;
+}
+
+/* ICY THEME */
+h1.icy {
+  color: #ffb3b3;
+}
+h2.icy {
+  color: #a6c957;
+}
+body.icy {
+  color: #a6c957;
+  background-color: #25282a;
+}
+.navbar.icy {
+  color: #d1d1d1;
+}
+.page.icy {
+  color: #d1d1d1;
+}
+.item.icy {
+  background-color: #386641;
+}
+.topMessage.icy {
+  background-color: #d45459;
+}
+
+
+/* colors:
+light green #86A937
+light yellow #EAD9C3
+dark grey #221D23
+medium grey #393E41
+
+light green #a7c957
+medium olive #6a994e
+dark green #386641
+*/
